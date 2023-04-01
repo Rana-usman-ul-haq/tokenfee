@@ -699,7 +699,7 @@ contract MyToken is Context, IERC20, Ownable {
 
     uint256 public _marketingFee = 2;
     uint256 private _previousMarketingFee = _marketingFee;
-    address payable public marketingWallet = payable(0xBF7bE16Ff1e88BE4266F815b46A6c76f920AC17E);
+    address payable public marketingWallet = payable(0xb824BCec49baBaD333a752A52c6EBa9D0C50b92E);
 
     IUniswapV2Router02 public  uniswapV2Router;
     address public  uniswapV2Pair;
